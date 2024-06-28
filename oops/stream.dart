@@ -5,11 +5,11 @@ void main(List<String> args) async {
   //   print(name);
   // }
 
-  // StreamController streamController = StreamController();
+  StreamController streamController = StreamController();
 
-  // streamController.stream.listen((event) {
-  //   print(event);
-  // });
+  streamController.stream.listen((event) {
+    print(event);
+  });
 
   // streamController.add('Suraj');
   // await Future.delayed(Duration(seconds: 1));
